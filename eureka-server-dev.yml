@@ -1,0 +1,10 @@
+server:
+  port: 8788
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+  instance:
+    metadata-map:
+      zone: '{cipher}1398f2c88272d846a8731e403c0131a2f33feca52ea7d267f86c3b8c9f3e2aec'
